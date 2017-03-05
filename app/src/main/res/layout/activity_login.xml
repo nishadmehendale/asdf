@@ -49,10 +49,11 @@
         android:text="@string/login"
         android:textColor="@android:color/white"
         android:textSize="20dp"
+        android:textStyle="bold"
         android:ems="9"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/button"
+        android:id="@+id/login_button"
         android:hapticFeedbackEnabled="true"
         android:background="@color/colorPrimary"
         app:layout_constraintLeft_toLeftOf="@+id/login_password"
@@ -62,6 +63,7 @@
 
     <Switch
         android:text="Admin"
+        android:textSize="20dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/login_switch"
